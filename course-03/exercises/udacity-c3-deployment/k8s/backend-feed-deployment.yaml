@@ -17,7 +17,7 @@ spec:
       containers:
       - image: reismatheus97/backend-feed
         name: backend-feed
-        imagePullPolicy: Always  
+        imagePullPolicy: Always
         resources:
           requests:
             memory: "64Mi"
