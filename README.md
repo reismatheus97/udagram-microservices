@@ -1,11 +1,11 @@
 # cloud-developer
 content for Udacity's cloud developer nanodegree
 
-### Docker  
-### Kubernetes  
-### Travis  
+##### Docker  
+##### Kubernetes  
+##### Travis
 
-This project have public images[[https://hub.docker.com/u/reismatheus97] at Docker Hub.
+This project have public (images)[https://hub.docker.com/u/reismatheus97] at Docker Hub.
 
 ## Running services locally (Docker)
 `cd course-03/exercises/udacity-c3-deployment/docker/`  
