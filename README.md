@@ -5,7 +5,7 @@ content for Udacity's cloud developer nanodegree
 ##### Kubernetes  
 ##### Travis
 
-This project have public (images)[https://hub.docker.com/u/reismatheus97] at Docker Hub.
+This project have public [images](https://hub.docker.com/u/reismatheus97) at Docker Hub.
 
 ## Running services locally (Docker)
 `cd course-03/exercises/udacity-c3-deployment/docker/`  
@@ -16,7 +16,7 @@ Every resource to k8s resides in `course-03/exercises/udacity-c3-deployment/k8s/
 It includes Deployments, ConfigMaps, Secrets and Services.
 
 To start deploying, apply the each one of `.yml` files, for example:  
-`kubectl apply -f aws-secret.yaml`  
+`kubectl apply -f aws-secret.yaml` 
 
 After applying those:
 `kubectl get pods`  
