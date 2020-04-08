@@ -29,4 +29,12 @@ This can be achived with the following command:
 `kubectl port-forward service/frontend 8100:8100`  
 
 Now we are good to go and use Udagram App, check it out at the browser:    
-[http://localhost:8100]
+[http://localhost:8100]  
+
+
+## Continuous Integration
+This project uses Travis as CI tool.  
+Every commit at branch master will trigger a build process descibred at `.travis.yml` file.  
+The build process will use Docker to build containers according to the `docker-compose-build.yml` file.  
+
+
